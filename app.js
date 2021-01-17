@@ -1,7 +1,3 @@
-require('dotenv').config();
-console.log(process.env);
-const api_key = process.env.API_KEY;
-
 // ------------------------------SEARCH COMPONENT---------------------------------------
 const searchBar = document.getElementById("searchBar");
 
@@ -13,7 +9,7 @@ function get_movies(searchString) {
     // Get movies in JSON
     try {
         var movies;
-        fetch('http://www.omdbapi.com/?apikey=' + api_key + 'e&type=movie&s='+searchString)
+        fetch('http://www.omdbapi.com/?apikey=4f3f9ee&type=movie&s='+searchString)
             .then(data=>{
                 return data.json();
                 })
@@ -230,7 +226,7 @@ function searchIDNomination(id) {
     // API call for movie information
     try {
         var movie;
-        fetch('http://www.omdbapi.com/?apikey=' + api_key + '&type=movie&i='+id)
+        fetch('http://www.omdbapi.com/?apikey=4f3f9ee&type=movie&i='+id)
             .then(data=>{
                 return data.json();
                 })

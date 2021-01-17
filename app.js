@@ -9,7 +9,7 @@ function get_movies(searchString) {
     // Get movies in JSON
     try {
         var movies;
-        fetch('http://www.omdbapi.com/?apikey=4f3f9ee&type=movie&s='+searchString)
+        fetch('https://www.omdbapi.com/?apikey=4f3f9ee&type=movie&s='+searchString)
             .then(data=>{
                 return data.json();
                 })

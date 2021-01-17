@@ -226,7 +226,7 @@ function searchIDNomination(id) {
     // API call for movie information
     try {
         var movie;
-        fetch('http://www.omdbapi.com/?apikey=4f3f9ee&type=movie&i='+id)
+        fetch('https://www.omdbapi.com/?apikey=4f3f9ee&type=movie&i='+id)
             .then(data=>{
                 return data.json();
                 })

@@ -1,13 +1,14 @@
 body {
     font-family: sans-serif;
-    background-color: #96bf48;
+    background-color: #669966;
 }
 
 * {
     box-sizing: border-box;
 }
 h1 {
-    color: black;
+    color: #fffdd0;
+    font-family: Georgia;
     margin-bottom: 24px;
 }
 
@@ -38,7 +39,7 @@ h3 {
 .results-container {
     margin-bottom: 20px;
     width: 48%;
-    background-color: #f7f8e2;
+    background-color: #f8f2da;
 }
 
 .results-container li {
@@ -48,17 +49,17 @@ h3 {
     margin: 0;
     color: #3a3c42;
     text-align: left;
-    background-color: #f7f8e2;
+    background-color: #f8f2da;
 }
 
 .results-container ul {
-    background-color: #f7f8e2;
+    background-color: #f8f2da;
 }
 
 .nominations-container {
     margin-bottom: 20px;
     width: 48%;
-    background-color: #f7f8e2;
+    background-color: #f8f2da;
 }
 
 .nominations-container li {
@@ -68,7 +69,7 @@ h3 {
     margin: 0;
     color: #3a3c42;
     text-align: left;
-    background-color: #f7f8e2;
+    background-color: #f8f2da;
 }
 
 .nominations-container p {
@@ -103,6 +104,7 @@ h3 {
     border: 1px solid #f7f8e2;
     padding: 5px 10px;
     font-size: 12px;
+    background-color: #f8f2da;
 }
 
 #searchWrapper {
